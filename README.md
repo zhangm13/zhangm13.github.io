@@ -1,3 +1,3 @@
 ## The Website
 
-# Code used to host the website (HTML and CSS)
+# Code used to host zhangm13.github.io (HTML and CSS)
