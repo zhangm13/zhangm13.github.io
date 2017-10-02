@@ -45,8 +45,11 @@
 
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
 	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
             <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -66,13 +69,65 @@
       </div>
 
       <p class="scrolldown">
-         <a class="smoothscroll" href="#resume"><i class="icon-down-circle"></i></a>
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
       </p>
 
    </header> <!-- Header End -->
 
 
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
 
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Jonathan Doe</span><br>
+						   <span>1600 Amphitheatre Parkway<br>
+						         Mountain View, CA 94043 US
+                     </span><br>
+						   <span>(123)456-7890</span><br>
+                     <span>anyone@website.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
 
 
    <!-- Resume Section
@@ -85,8 +140,6 @@
 
          <div class="three columns header-col">
             <h1><span>Education</span></h1>
-            <br>
-            <img src="images/mc-blank.jpg">
          </div>
 
          <div class="nine columns main-col">
@@ -106,8 +159,9 @@
 	                  </p>
                   </div>
 
-
                </div>
+
+            </div> <!-- item end -->
 
          </div> <!-- main-col end -->
 
@@ -120,10 +174,6 @@
 
          <div class="three columns header-col">
             <h1><span>Work</span></h1>
-            	<br><br><br><br>
-	            <img src="images/3D-stream-logo-main.png">
-	            <br><br><br><br><br><br><br><br>
-	            <img src="images/City-of-Markham-Logo1.jpg">
          </div>
 
          <div class="nine columns main-col">
@@ -135,17 +185,15 @@
                   <h3>3Dstream</h3>
                   <p class="info">Software Developer Intern <span>&bull;</span> <em class="date">June 2017 - Present</em></p>
                   <div class = "p-padding">
-	                  <p>
-						•	Involved in the design and development of a web-based additive manufacturing management system to make 3D printers operate more efficiently <br>
-						•	Architected the infrastructure for data communication between front-end, back-end, GCS and the Raspberry PIs <br>
-						•	Implemented several security features to the web server, mySQL database tables and the web server’s authentication process <br>
-						•	Attended meetings (ex. Scrum) to share my views and expertise regarding matters concerning the company <br>
-						•	Displayed problem-solving skills and initiative when tackling difficult tasks and issues in a high-performing team <br>
-						•	Tools: Laravel 5.4 (PHP), VueJS 2.0, mySQL, Google Cloud Server, BlueHost Server, 3D printers, HTML & CSS <br>
-					</p>
-				 </div>
-
-
+	                 <p>
+  						•	Involved in the design and development of a web-based additive manufacturing management system to make 3D printers operate more efficiently <br>
+  						•	Architected the infrastructure for data communication between front-end, back-end, GCS and the Raspberry PIs <br>
+  						•	Implemented several security features to the web server, mySQL database tables and the web server’s authentication process <br>
+  						•	Attended meetings (ex. Scrum) to share my views and expertise regarding matters concerning the company <br>
+  						•	Displayed problem-solving skills and initiative when tackling difficult tasks and issues in a high-performing team <br>
+  						•	Tools: Laravel 5.4 (PHP), VueJS 2.0, mySQL, Google Cloud Server, BlueHost Server, 3D printers, HTML & CSS <br>
+  					</p>
+		          </div>
 
                </div>
 
@@ -166,7 +214,6 @@
 					  </p>
 				  </div>
 
-
                </div>
 
             </div> <!-- item end -->
@@ -183,7 +230,9 @@
          <div class="three columns header-col">
             <h1><span>Skills</span></h1>
          </div>
-		  <div class="nine columns main-col">
+
+         <div class="nine columns main-col">
+
 		        <div class="row item">
 
 	               <div class="twelve columns">
@@ -209,8 +258,8 @@
 						</div>
 					</div>
 				</div>
-		  </div>
 
+			</div> <!-- main-col end -->
 
       </div> <!-- End skills -->
 
@@ -247,7 +296,22 @@
                   </div>
           		</div> <!-- item end -->
 
-        
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                      <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/cartoon_ghost.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>3D Printer Monitoring System</h5>
+                              <p>MHacks X</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
 
             </div> <!-- portfolio-wrapper end -->
 
@@ -272,12 +336,29 @@
             </div>
 
 	      </div><!-- modal-01 End -->
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/cartoon_ghost.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>3D Printer Monitoring System</h4>
+			      <p>Detects 3D printing failures with Pixy Cam and notifies Operator via Twilio SMS API</p>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://devpost.com/software/3dcam-qsmzkf">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
 
 
 
       </div> <!-- row End -->
 
    </section> <!-- Portfolio Section End-->
+
+
 
 
 
@@ -295,6 +376,9 @@
                <li><a href="https://github.com/zhangm13"><i class="fa fa-github"></i></a></li>
             </ul>
 
+            <ul class="copyright">
+               <li>&copy; Copyright Michael Zhang 2017</li>
+            </ul>
 
          </div>
 
