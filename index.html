@@ -224,8 +224,8 @@
 
                  <div class="twelve columns">
             <div class="tab">
-              <button class="tablinks" onclick="openCity(event, 'softWare')">Software-Related</button>
-              <button class="tablinks" onclick="openCity(event, 'hardWare')">Hardware-Related</button>
+              <button class="tablinks" onclick="showSkill(event, 'softWare')">Software-Related</button>
+              <button class="tablinks" onclick="showSkill(event, 'hardWare')">Hardware-Related</button>
             </div>
             <br>
             <div id="softWare" class="tabcontent">
@@ -432,7 +432,7 @@ div.tab button.active {
 </style>
 
 <script>
-function openCity(evt, cityName) {
+function showSkill(evt, skillName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -442,7 +442,7 @@ function openCity(evt, cityName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(skillName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 </script>
